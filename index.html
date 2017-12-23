@@ -77,7 +77,9 @@
 
 
   <style type="text/css">
-  	.header
+  	@media screen and (orientation: portrait)
+    {
+    .header
   	{background-image: url('b.jpg'),url('overlay.png') ;
   	background-position-x : initial;
   	background-attachment: scroll fixed;
@@ -184,7 +186,7 @@ ul.ok
   padding: 2% 1% 2.5% 1%;
   width: calc(100%-80%);
   background-color: F8ECC2;
-  font-size: 130%;
+  font-size: 90%;
   font-weight: 150;
   display: block;
   font-family: 'Roboto', sans-serif;
@@ -201,7 +203,141 @@ ul.ok
 { color: #49bf9d;
   border-bottom: dotted 1px;
   transition-duration: 1s;
-  text-decoration:none ; }
+  text-decoration:none ; 
+}
+
+}
+
+@media screen and (orientation:landscape)
+    {
+    .header
+    {background-image: url('b.jpg'),url('overlay.png') ;
+    background-position-x : initial;
+    background-attachment: scroll fixed;
+     background-position-y: initial;
+     background-size: cover;
+     background-repeat: no-repeat;
+     float: left;
+     position: fixed;
+     width: 35%; 
+     height: 100%;
+     margin-left: 0%;
+     margin-top: 0%;
+     padding-left: 2%;
+     padding-right: 2%;
+     padding-top: 2%;
+     padding-bottom: 2%;
+     background-color: #1f1815;
+
+      
+       }
+    .dp
+    { border-radius: 60%;
+      width: 20%;
+      height: 20%;
+      max-height: 100%;
+      max-width: 100%;
+      text-align: right;
+      padding-bottom: 3%;
+       }
+       .name
+       { color: white;
+         text-align: right;
+         top:0; 
+         font-size: 150%;
+       font-weight: 530;
+    font-family: 'Roboto', sans-serif;}
+    .name1
+    { color: #c0c1bb;
+         text-align: right;
+         top:0; 
+         font-size: 130%;
+       font-weight: 200;
+    font-family: 'Roboto', sans-serif;
+       }
+
+      .footer
+       { padding-top: : 1%;
+        padding-left: 13%;
+        padding-right: 1%;
+       width: 20%;
+       height: 15%;
+       text-align: right;
+       float:left;
+       bottom: 0;
+       left: 0;
+       position: fixed;
+       margin-left: 1%;
+        }
+        .fa {
+    padding: 2.5%;
+    font-size: 140%;
+    text-align: center;
+    text-decoration: none;
+    color: #969994;
+}
+
+.label:hover {
+    opacity: 0.7;
+     color: #3eefc6;
+     transition-duration: 1s;
+}
+.footer.icons
+{ margin: 1%  0 0 0 ;
+
+
+   }
+  ul.icons
+  { padding-left: 0%;
+   }
+   ul.icons.li
+   { display: inline-block;
+      text-align: left;
+        }
+.fa1{    padding: 3%;
+    font-size: 120%;
+    text-align: center;
+    text-decoration: none;
+    color: #9c9d9e;
+    display: inline-block;
+
+}
+ul.ok
+{ color: #9c9d9e;
+   font-size: 105%;
+   text-align: right;
+    }
+
+.label ,.footer.icons.fa.a:link
+{color:#fff; text-decoration: underline #505456; border-bottom: none;}
+
+.one
+{ margin-left: 45%;
+  max-width: none;
+  padding: 2% 1% 2.5% 1%;
+  width: calc(100%-80%);
+  background-color: F8ECC2;
+  font-size: 150%;
+  font-weight: 150;
+  display: block;
+  font-family: 'Roboto', sans-serif;
+  color: #474646;
+}
+.h
+{ font-weight: bold; }
+.onea{
+  margin-left: auto;
+  margin-right: auto;
+
+}
+.l
+{ color: #49bf9d;
+  border-bottom: dotted 1px;
+  transition-duration: 1s;
+  text-decoration:none ; 
+}
+
+}
     </style>
 
 
